@@ -1,0 +1,17 @@
+/* Custom CSS for styling table */
+table th {
+  font-weight: bold; /* Make table headers bold */
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; /* lighter gray background for odd rows */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #e0e0e0; /*light gray background for even rows */
+}
+
+table {
+  margin: auto;
+  width: 90%;
+}
